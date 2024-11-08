@@ -1,19 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import { Inputval } from './components/general'
-import { FinalSubmit } from './components/FinalSubmit.jsx'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
+import { Resume } from './components/resume';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div id='container'>
-    <h1>General Information</h1>
-    <div id='general'>
-    {/* <Inputval val = "Name"/>
-    <Inputval val = "Email"/>
-    <Inputval val = "Phone Number"/> */}
+  <div id="main-container">
+    <div id="left-container"></div>
+    <div id="right-container">
+    <Resume/>
     </div>
-    <FinalSubmit submit="Final Submit"/>
-    </div>
-  </StrictMode>,
-)
+  </div>
+</StrictMode>
+
+);

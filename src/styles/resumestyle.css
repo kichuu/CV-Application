@@ -1,0 +1,26 @@
+#general-section > div {
+    margin-bottom: 10px;
+  }
+
+#heading{
+    text-align: center;
+    font-size: 28px;
+}
+
+#general-section , .csection{
+    padding: 0px 20px;
+    font-size: large;
+    font-weight: 800;
+    font-family: sans-serif ;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#general-heading , .cheading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 800;
+}
